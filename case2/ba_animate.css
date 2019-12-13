@@ -15,10 +15,10 @@
 /* Transition Styles */
 
 nav a{
-   background: url('ba_target.png') 100 100 no-repeat;
-   background-size: 100%;
+   background: url('ba_target.png') center no-repeat;
+   background-size: 0%;
    color: rgb(253,240,133);
-   transition: background-size 0.3s, color 0.8s;
+   transition: color 0.8s, background 0.3s;
 }
 nav a:hover{
    background-size: 100%;
@@ -30,7 +30,7 @@ nav a:hover{
 @keyframes moveRed{
    0%{left:0px;
       -webkit-filter:drop-shadow(rgb(51,51,51) -40px 20px 25px);
-      filter:drop-shadow(rgb(88, 70, 70) -40px 20px 25px);
+      filter:drop-shadow(rgb(51, 51, 51) -40px 20px 25px);
    }
    49%{transform: scaleX(1.0);}
    50%{left:380px;

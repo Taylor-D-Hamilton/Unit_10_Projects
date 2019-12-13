@@ -39,7 +39,7 @@ nav#gameLinks a::after{
    width: 0%;
    height: 8px;
    background: linear-gradient(to right,rgb(237,243,73),rgb(188,74,0));
-   border: 4px;
+   border-radius: 4px;
    opacity: 0;
    transition: opacity 0.5s, width 0.5s;
 }

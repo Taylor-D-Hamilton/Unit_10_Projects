@@ -26,6 +26,9 @@ audio{
    border-radius: 25px;
    transition: box-shadow 2s,width 0.5s;
 }
+audio::-webkit-media-controls-panel{
+   background: rgb(128, 128, 255);
+}
 audio:hover{
    display: block;
    box-shadow: blue 8px 8px 25px;

@@ -23,6 +23,27 @@ audio{
    margin-left: auto;
    margin-right: auto;
    width: 80%;
+   border-radius: 25px;
+   transition: box-shadow 2s,width 0.5s;
+}
+audio:hover{
+   display: block;
+   box-shadow: blue 8px 8px 25px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+nav a{
+   background: url('ba_target copy.png') center no-repeat;
+   background-size: 0%;
+   color: darkgreen;
+   transition: color 3s, background 2s;
+}
+nav a:hover{
+   background-size: 100%;
+   color: white;
 }
 audio::-webkit-media-controls-panel{
    background-color: rgb(128,128,255);
